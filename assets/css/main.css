@@ -634,6 +634,10 @@ input, select, textarea {
 			padding: 1.5em 2.5em 3.5em 2.5em;
 		}
 
+		.box.style2 h2{
+			margin-bottom: 8%;
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.box {
@@ -2786,6 +2790,10 @@ input, select, textarea {
 .align-right {
 	position: absolute;
   	right: 5%;
+}
+
+.education {
+	margin-bottom: 5%;	
 }
 
 .education i{
