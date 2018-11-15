@@ -2615,6 +2615,15 @@ input, select, textarea {
 					transform: none;
 				}
 
+				.main.style2 .content .experience{
+					width: 100%;
+					max-width: 100%;
+					text-align: start;
+					-moz-transform: none;
+					-webkit-transform: none;
+					-ms-transform: none;
+					transform: none;
+				}
 
 
 
@@ -2744,6 +2753,14 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+/* Three */
+
+	#three {
+		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
 
 /* Contact */
 
@@ -2797,5 +2814,13 @@ input, select, textarea {
 }
 
 .education i{
+	font-size: 0.9em;
+}
+
+.experience {
+	margin-bottom: 2%;	
+}
+
+.experience i{
 	font-size: 0.9em;
 }
