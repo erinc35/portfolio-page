@@ -588,7 +588,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
-		color: #e5e6e7;
+		color: darkslategray;
 	}
 
 	sub {
@@ -1832,7 +1832,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: #348cb2 url("../../images/snow1.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -2130,13 +2130,15 @@ input, select, textarea {
 			letter-spacing: -0.035em;
 			line-height: 1em;
 			color: white;
+			text-shadow: 2px 2px 4px darkslategray;
 		}
 
 		#greeting p {
-			font-size: 1.25em;
+			font-size: 1.3em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
-			color: #e5e6e7;
+			color: white;
+			text-shadow: 2px 2px 4px darkslategray;			
 		}
 
 	#greeting nav {
@@ -2247,7 +2249,7 @@ input, select, textarea {
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #fff;
+					border: solid 1px darkslategrey;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -2263,8 +2265,9 @@ input, select, textarea {
 				}
 
 					#greeting nav a:hover:before {
-						background-color: rgba(255, 255, 255, 0.175);
-						color: #fff;
+						background-color: darkslategrey(259, 251, 255, 0.175);
+						color: rgba(0, 0, 0, 0.671);
+						border: solid 2px rgba(0, 0, 0, 0.671);						
 					}
 
 				#greeting nav a:active {
@@ -2273,8 +2276,9 @@ input, select, textarea {
 				}
 
 					#greeting nav a:active:before {
-						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
+						background-color: darkslategrey(259, 251, 255, 0.35);
+						color: rgba(0, 0, 0, 0.671);
+						border: solid 2px rgba(0, 0, 0, 0.671);										
 					}
 
 				#greeting nav a span {
