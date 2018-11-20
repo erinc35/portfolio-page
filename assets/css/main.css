@@ -973,7 +973,11 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			width: 100%;
+			width: 96%;
+		}
+
+		.guideme {
+			margin-bottom: 2%;
 		}
 
 		.image.left {
@@ -1812,6 +1816,10 @@ input, select, textarea {
 
 				.gallery article {
 					width: 100%;
+				}
+
+				.gallery article .image {
+					margin-bottom: 3%;
 				}
 
 		}
