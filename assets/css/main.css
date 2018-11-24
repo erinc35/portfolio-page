@@ -2621,6 +2621,14 @@ input, select, textarea {
 					transform: none;
 				}
 
+				.main.style2 .stack-item-title {
+					text-align: left;
+				}	
+				
+				.main.style2 .skill-bar-percent {
+					vertical-align: text-top;
+				}
+
 				.main.style2 .content .education{
 					width: 100%;
 					max-width: 100%;
@@ -2847,9 +2855,9 @@ input, select, textarea {
 	position:relative;
 	display:block;
 	margin-bottom:15px;
-	width:100%;
+	width:90%;
 	background:#eee;
-	height:35px;
+	height:5px;
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
@@ -2897,7 +2905,7 @@ input, select, textarea {
 }
 
 .skillbar-bar {
-	height:35px;
+	height:5px;
 	width:0px;
 	background:#6adcfa;
 	border-radius:3px;
@@ -2907,11 +2915,16 @@ input, select, textarea {
 
 .skill-bar-percent {
 	position:absolute;
-	right:10px;
-	top:0;
-	font-size:11px;
+	right: 3%;
+	/* top:0; */
+	font-size: 100%;
 	height:35px;
 	line-height:35px;
 	color:#ffffff;
 	color:rgba(0, 0, 0, 0.4);
+}
+
+.bar-div {
+	display: flex;
+	justify-content: space-between;
 }
