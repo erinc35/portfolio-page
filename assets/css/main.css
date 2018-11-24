@@ -2855,7 +2855,7 @@ input, select, textarea {
 	position:relative;
 	display:block;
 	margin-bottom:15px;
-	width:90%;
+	width:100%;
 	background:#eee;
 	height:5px;
 	border-radius:3px;
@@ -2907,7 +2907,7 @@ input, select, textarea {
 .skillbar-bar {
 	height:5px;
 	width:0px;
-	background:#6adcfa;
+	background:#6a74fa;
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
