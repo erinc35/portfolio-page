@@ -148,6 +148,31 @@
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
 
+		<!-- Four -->
+		<section id="four" class="main style2 right dark fullscreen">
+			<div class="content box style2">
+				<header>
+					<h2>Stack</h2>
+				</header>
+				<div class="skillbar clearfix " data-percent="20%">
+					<div class="skillbar-title" style="background: #d35400;">
+						<span>HTML5</span>
+					</div>
+					<div class="skillbar-bar" style="background: #e67e22;"></div>
+					<div class="skill-bar-percent">20%</div>
+				</div>
+				<div class="skillbar clearfix " data-percent="25%">
+					<div class="skillbar-title" style="background: #2980b9;">
+						<span>CSS3</span>
+					</div>
+					<div class="skillbar-bar" style="background: #3498db;"></div>
+					<div class="skill-bar-percent">25%</div>
+				</div>
+			</div>
+			
+			<a href="#four" class="button style2 down anchored">Next</a>
+		</section>
+
 		<!-- Work -->
 			<section id="work" class="main style3 primary">
 				<div class="content">
@@ -225,6 +250,15 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				$(document).ready(function () {
+						$('.skillbar').each(function () {
+							console.log($(this).find('.skillbar-bar').width)
+							$(this).find('.skillbar-bar').animate({
+								width: $(this).attr('data-percent')
+							}, 2000);
+						});
+					});
+			</script>
 	</body>
 </html>
