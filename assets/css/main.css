@@ -668,7 +668,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
+		background-color: darkolivegreen;
 		border: 0;
 		border-radius: 3.5em;
 		color: #ffffff;
@@ -869,7 +869,7 @@ input, select, textarea {
 		width: 100%;
 		padding: 0.65em 0.75em;
 		background: none;
-		border: solid 2px #e5e6e7;
+		border: solid 2px darkslategray;
 		color: inherit;
 		border-radius: 0.5em;
 		outline: none;
@@ -1442,6 +1442,14 @@ input, select, textarea {
 			width: 50%;
 			position: relative;
 			opacity: 1.0;
+		}
+
+		.gallery article:hover {
+			box-shadow: 2px 5px 5px rgba(0, 0, 0, .5);
+		}
+
+		.gallery article a:hover {
+			width: 100%;
 		}
 
 			.gallery article .image {
@@ -2536,7 +2544,7 @@ input, select, textarea {
 			}
 
 			.main.style3.secondary {
-				background: #FFF8DC;
+				background: darkkhaki;
 			}
 
 		.main.dark {
