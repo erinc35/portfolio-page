@@ -224,16 +224,16 @@
 
 					<!-- Gallery  -->
 						<div class="gallery">
-							<article class="from-left">
+							<article data-tilt class="from-left">
 								<a target="_blank" href="https://github.com/erinc35/CarDex" class="image fit"><img src="assets/css/images/projects/cardex.png" title="The Anonymous Red" alt="" /></a>
 							</article>
-							<article class="from-right guideme">
+							<article data-tilt class="from-right guideme">
 								<a target="_blank" href="https://guideme-2016.herokuapp.com/" class="image fit"><img src="assets/css/images/projects/guide_me.png" title="Airchitecture II" alt="" /></a>
 							</article>
-							<article class="from-left">
+							<article data-tilt class="from-left">
 								<a target="_blank" href="https://github.com/erinc35/portfolio-page" class="image fit"><img src="assets/css/images/projects/portfolio.png" title="Air Lounge" alt="" /></a>
 							</article>
-							<article class="from-right">
+							<article data-tilt class="from-right">
 								<a target="_blank" href="https://labhub-2016.herokuapp.com/" class="image fit"><img src="assets/css/images/projects/labhub.png" title="Carry on" alt="" /></a>
 							</article>
 						</div>
@@ -284,6 +284,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="node_modules/tilt.js/src/tilt.jquery.js"></script>
 			<script>
 				window.onscroll = (function () {
 					if($('.stack-item').visible(true))
@@ -293,6 +294,8 @@
 							}, 2000);
 						});
 					});
+
+				
 			</script>
 	</body>
 </html>
