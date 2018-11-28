@@ -636,6 +636,21 @@ input, select, textarea {
 			border-radius: 5px;
 		}
 
+		.whatIdo {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.whatIdo h2 {
+			margin-top: 7%;
+		}
+
+		.erinc {
+			width: 25%;
+			height: 25%;
+			border-radius: 50%;
+		}
+
 		.box.style2 h2{
 			margin-bottom: 8%;
 		}
@@ -1840,7 +1855,7 @@ input, select, textarea {
 		-moz-animation: bg 60s linear infinite;
 		-webkit-animation: bg 60s linear infinite;
 		-ms-animation: bg 60s linear infinite;
-		animation: bg 60s linear infinite;
+		animation: bg 80s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -1858,7 +1873,7 @@ input, select, textarea {
 		opacity: 1;
 		position: fixed;
 		top: 0;
-		zoom: 70%;
+		zoom: 62%;
 	}
 
 	@-moz-keyframes bg {
@@ -2637,6 +2652,10 @@ input, select, textarea {
 					-webkit-transform: none;
 					-ms-transform: none;
 					transform: none;
+				}
+
+				.whatIdo {
+					display: inline;
 				}
 
 				.main.style2 .stack-item-title {
