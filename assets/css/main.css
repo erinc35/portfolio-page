@@ -1873,7 +1873,7 @@ input, select, textarea {
 		opacity: 1;
 		position: fixed;
 		top: 0;
-		zoom: 62%;
+		zoom: 80%;
 	}
 
 	@-moz-keyframes bg {
