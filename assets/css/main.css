@@ -979,7 +979,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-			/* height: 30%; */
+			height: 40vh;
 		}
 
 		.image.featured {
@@ -1443,6 +1443,7 @@ input, select, textarea {
 		width: 45em;
 		max-width: 100%;
 		margin: 0 auto 3em auto;
+		height: 100%;
 	}
 
 		.gallery article {
@@ -1455,8 +1456,25 @@ input, select, textarea {
 			-ms-transform: translateX(0);
 			transform: translateX(0);
 			width: 50%;
+			height: 364px;
 			position: relative;
 			opacity: 1.0;
+		}
+
+		.gallery article .tooltiptext {
+			visibility: hidden;
+			width: 120px;
+			background-color: black;
+			color: #fff;
+			text-align: center;
+			border-radius: 6px;
+			padding: 5px 0;
+			position: absolute;
+			z-index: 1;
+		}
+
+		.gallery article:hover .tooltiptext {
+			visibility: visible;
 		}
 
 		.gallery article:hover {
@@ -1803,6 +1821,7 @@ input, select, textarea {
 				-webkit-transform: translateX(-14em);
 				-ms-transform: translateX(-14em);
 				transform: translateX(-14em);
+				height: 300px;
 			}
 
 			.gallery.inactive article.from-right {
@@ -1810,6 +1829,8 @@ input, select, textarea {
 				-webkit-transform: translateX(14em);
 				-ms-transform: translateX(14em);
 				transform: translateX(14em);
+				height: 300px;
+				
 			}
 
 			.gallery.inactive article.from-top {
