@@ -309,7 +309,7 @@
 			<script src="node_modules/tilt.js/src/tilt.jquery.js"></script>
 			<script>
 				window.onscroll = (function () {
-					if($('.stack-item').visible(true))
+					if($('.stack-item').is(':visible'))
 						$('.skillbar').each(function () {
 							$(this).find('.skillbar-bar').animate({
 								width: $(this).attr('data-percent')
