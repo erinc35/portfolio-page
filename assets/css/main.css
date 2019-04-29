@@ -992,7 +992,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			width: 96%;
+			width: 100%;
 		}
 
 		.guideme {
@@ -1446,6 +1446,7 @@ input, select, textarea {
 		max-width: 100%;
 		margin: 0 auto 3em auto;
 		height: 100%;
+		justify-content: space-between;
 	}
 
 		.gallery article {
@@ -1457,7 +1458,7 @@ input, select, textarea {
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			width: 50%;
+			width: 48%;
 			height: 40vh;
 			position: relative;
 			opacity: 1.0;
@@ -1490,10 +1491,10 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.gallery article .image {
-				margin: 0;
-				display: block;
-			}
+		.gallery article .image {
+			margin: 0;
+			display: block;
+		}
 
 			.gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
@@ -3001,3 +3002,25 @@ input, select, textarea {
 	display: flex;
 	justify-content: space-between;
 }
+
+/* .tilt {
+	box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
+	transform-style: preserve-3d;
+	margin: 50px auto;
+} */
+
+.tilt-logo {
+	width: 200px;
+	height: 200px;
+	background-color: #7e56ff;
+	/* background-image: linear-gradient(150deg, #5a00ff 0%, #ff1ff7 100%, #ff1ff7 100%); */ 
+}
+
+/* .tilt-logo-inner {
+	transform: translateZ(50px) translateY(-50%) translateX(-50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	font-size: 1.9rem;
+} */
