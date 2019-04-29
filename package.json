@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "jquery-visible": "^1.2.0",
-    "tilt.js": "^1.2.1"
+    "tilt.js": "^1.2.1",
+    "waypoints": "^4.0.1"
   }
 }
