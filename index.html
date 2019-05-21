@@ -12,6 +12,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+ crossorigin="anonymous">
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -216,37 +219,84 @@
 			<section id="work" class="main style3 primary">
 				<div class="content">
 					<header>
-						<h2>My Work</h2>
+						<h2 class='mywork-anchor'>My Work</h2>
 					</header>
 
 					<!-- Gallery  -->
 						<div class="gallery">
-							<article data-tilt data-tilt-glare="true" class="from-left">
-								<span class="tooltiptext">Voice Chatroom</span>
-								<a target="_blank" href="https://intercom.netlify.com" class="image fit">
-									<img src="assets/css/images/projects/intercom.png" title="Voice Chatroom" alt="Voice Chatroom" />
-								</a>
-							</article>
-							<article data-tilt data-tilt-glare="true" class="from-right">
-								<span class="tooltiptext">La Cocina</span>
-								<a target="_blank" href="https://musing-banach-95f72c.netlify.com/" class="image fit">
-									<img src="assets/css/images/projects/lacocina.png" title="La Cocina" alt="la Cocina" />
-								</a>
-							</article>
-							<article data-tilt data-tilt-glare="true" class="from-left guideme">
-								<span class="tooltiptext">GuideMe</span>								
-								<a target="_blank" href="https://guideme-2016.herokuapp.com/" class="image fit"><img src="assets/css/images/projects/guide_me.png" title="Airchitecture II" alt="" /></a>
-							</article>
-							<article data-tilt data-tilt-glare="true" class="from-left">
-								<span class="tooltiptext">Labhub</span>								
-								<a target="_blank" href="https://labhub-2016.herokuapp.com/" class="image fit"><img src="assets/css/images/projects/labhub.png" title="Carry on" alt="" /></a>
-							</article>
-							<article data-tilt data-tilt-glare="true" class="from-right">
-								<span class="tooltiptext">Cardex</span>								
-								<a target="_blank" href="https://github.com/erinc35/CarDex" class="image fit">
-									<img src="assets/css/images/projects/cardex.png" title="The Anonymous Red" alt="" />
-								</a>
-							</article>
+							<div class="article-wrap">
+								<article data-tilt data-tilt-glare="true" class="from-left">
+									<span class="tooltiptext">Voice Chatroom</span>
+									<a target="_blank" href="https://intercom.netlify.com" class="image fit">
+										<img src="assets/css/images/projects/intercom.png" title="Voice Chatroom" alt="Voice Chatroom" />
+									</a>
+								</article>
+								<div id='article-links' class="article-links-hidden">
+									<a target="_blank" href="https://intercom.netlify.com" class="fas fa-pager site">
+										<!-- <span class="label">Linkedin</span> -->
+									</a>
+									<a target="_blank" href="https://www.github.com/intercom-app" class="icon fa-github">
+										<span class="label">Github</span>
+									</a>
+								</div>
+							</div>
+							<div class="article-wrap">
+								<article data-tilt data-tilt-glare="true" class="from-right">
+									<span class="tooltiptext">La Cocina</span>
+									<a target="_blank" href="https://la-cocina.netlify.com/" class="image fit">
+										<img src="assets/css/images/projects/lacocina.png" title="La Cocina" alt="la Cocina" />
+									</a>
+								</article>
+								<div class="article-links">
+									<a target="_blank" href="https://github.com/erinc35/lacocina" class="fas fa-pager site">
+										<!-- <span class="label">Linkedin</span> -->
+									</a>
+									<a target="_blank" href="https://www.github.com/erinc35/lacocina" class="icon fa-github">
+										<span class="label">Github</span>
+									</a>
+								</div>
+							</div>
+							<div class="article-wrap">
+								<article data-tilt data-tilt-glare="true" class="from-left guideme">
+									<span class="tooltiptext">GuideMe</span>								
+									<a target="_blank" href="https://guideme-2016.herokuapp.com/" class="image fit"><img src="assets/css/images/projects/guide_me.png" title="Airchitecture II" alt="" /></a>
+								</article>
+								<div class="article-links">
+									<a target="_blank" href="https://guideme-2016.herokuapp.com/" class="fas fa-pager site">
+										<!-- <span class="label">Linkedin</span> -->
+									</a>
+									<a target="_blank" href="https://www.github.com/erinc35/GuideMe" class="icon fa-github">
+										<span class="label">Github</span>
+									</a>
+								</div>
+							</div>
+							<div class='article-wrap'>
+								<article data-tilt data-tilt-glare="true" class="from-right">
+									<span class="tooltiptext">Labhub</span>								
+									<a target="_blank" href="https://labhub-2016.herokuapp.com/" class="image fit"><img src="assets/css/images/projects/labhub.png" title="Carry on" alt="" /></a>
+								</article>
+								<div class="article-links">
+									<a target="_blank" href="https://labhub-2016.herokuapp.com" class="fas fa-pager site">
+										<!-- <span class="label">Linkedin</span> -->
+									</a>
+									<a target="_blank" href="https://www.github.com/erinc35/labhub" class="icon fa-github">
+										<span class="label">Github</span>
+									</a>
+								</div>
+							</div>
+							<div class='article-wrap'>
+								<article data-tilt data-tilt-glare="true" class="from-left">
+									<span class="tooltiptext">Cardex</span>								
+									<a target="_blank" href="https://github.com/erinc35/CarDex" class="image fit">
+										<img src="assets/css/images/projects/cardex.png" title="The Anonymous Red" alt="" />
+									</a>
+								</article>
+								<div class="article-links">
+									<a target="_blank" href="https://www.github.com/erinc35/CarDex" class="icon fa-github">
+										<span class="label">Github</span>
+									</a>
+								</div>
+							</div>
 						</div>
 				</div>
 			</section>
@@ -305,8 +355,20 @@
 							$(this).find('.skillbar-bar').animate({
 								width: $(this).attr('data-percent')
 							}, 2000);
-						});
+						});	
 					}
+
+					var hT = $('.mywork-anchor').offset().top,
+						hH = $('.mywork-anchor').outerHeight(),
+						wH = $(window).height(),
+						wS = $(this).scrollTop();
+					if (wS > (hT + hH - wH)) {
+						$('#article-links').delay(4000).removeClass('article-links-hidden')
+						$('#article-links').addClass('article-links')
+						
+					}
+
+
 					});
 			</script>
 	</body>
